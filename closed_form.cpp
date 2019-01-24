@@ -1,6 +1,8 @@
 #include "closed_form.hpp"
 #include <cmath>
 #include <limits>
+#include <vector>
+#include <algorithm>
 
 namespace dauphine
 {
