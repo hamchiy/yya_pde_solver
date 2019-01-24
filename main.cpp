@@ -19,7 +19,7 @@ int main() {
 	double maturity;
 	bool istrue = true;
 
-	//initial inputs (try inputs Spot = 100 / Strike = 10 / Vol = 0.2 / Maturity = 1 )
+	//initial inputs (inputs Spot = 100 / Strike = 10 / Vol = 0.2 / Maturity = 1 )
 	std::cout << "Underlying Spot Price:" << std::endl;
 	std::cin >> spot;
 	std::cout << "Strike Price:" << std::endl;

@@ -16,7 +16,7 @@ void gauss(vector<vector<double>>& augmented_matrix) {
         // eliminate i from all rows below
         for(int j=i+1; j<n; ++j) {
             for(int k=n; k>=i; --k) {
-                augmented_matrix[j][k] -= augmented_matrix[i][k] * augmented_matrix[j][i] / augmented_matrix[i][i]; // be careful here
+                augmented_matrix[j][k] -= augmented_matrix[i][k] * augmented_matrix[j][i] / augmented_matrix[i][i];
             }
         }
     }
